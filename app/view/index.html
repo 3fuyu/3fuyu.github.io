@@ -9,7 +9,7 @@
         var isMobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(window.navigator.userAgent);
         var href = window.location.href;
         var locale = new Date().toString();
-        var lang = locale.includes('GMT+0800') ? '?lang=zh-CN' : '?lang=en-US';
+        var lang = locale.indexOf('GMT+0800') > -1 ? '?lang=zh-CN' : '?lang=en-US';
         if (isMobile && !(href.indexOf('kitchen-sink') > -1) && !(href.indexOf('demo') > -1)) {
             window.location.href = window.location.origin + '/#/kitchen-sink' + lang;
         }
