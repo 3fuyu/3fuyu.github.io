@@ -6,9 +6,9 @@ This is the Angular implementation of the [Ant Design](http://ant.design)'s mobi
 
 [中文 README](README-zh_CN.md)
 
-<div class="pic-plus">
+<div class="pic-plus" style="display: inline-block!important;vertical-align: middle;">
   <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-  <span>+</span>
+  <span style="font-size: 30px;color: #aaa;margin: 0 20px;">+</span>
   <img height="150" src="https://img.alicdn.com/tfs/TB1Z0PywTtYBeNjy1XdXXXXyVXa-186-200.svg">
 </div>
 
