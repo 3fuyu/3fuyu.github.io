@@ -1,33 +1,45 @@
-# 3fuyu-website
 
-3fuyu-website
 
-## QuickStart
+# NG-ZORRO
 
-<!-- add docs here for user -->
+An enterprise-class UI components based on Ant Design and Angular.
 
-see [egg docs][egg] for more detail.
+[中文 README](README-zh_CN.md)
 
-### Development
+
+## Features
+
+- An enterprise-class UI design language for web applications.
+- A set of high-quality Angular components out of the box.
+- Written in TypeScript with complete define types.
+
+## Environment Support
+
+* Modern browsers and Internet Explorer 9+（with [polyfills](https://angular.cn/guide/browser-support)）。
+
+## Angular Version Support
+
+* Angular`^6.0.0`
+
+
+## Install
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+$ npm install ng-zorro-antd-mobile --save
 ```
 
-### Deploy
+## Development
 
 ```bash
+$ git clone git@github.com:NG-ZORRO/ng-zorro-antd-mobile.git
+$ npm install
 $ npm start
-$ npm stop
 ```
 
-### npm scripts
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+## Links
 
-
-[egg]: https://eggjs.org
+- [Angular](https://angular.io/)
+- [Angular CLI](https://cli.angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [RxJS 5](https://github.com/ReactiveX/rxjs)
