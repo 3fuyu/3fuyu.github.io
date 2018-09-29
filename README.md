@@ -1,5 +1,6 @@
 
-<img height="150" align="center" src="https://img.alicdn.com/tfs/TB1Z0PywTtYBeNjy1XdXXXXyVXa-186-200.svg">
+<div align="center" ><img width="150" src="https://gw.alicdn.com/tfs/TB1U7SsecfpK1RjSZFOXXa6nFXa-1462-1399.png"></div>
+<br/>
 
 # NG-ZORRO-Mobile
 
