@@ -1,17 +1,11 @@
 
+<img height="150" align="center" src="https://img.alicdn.com/tfs/TB1Z0PywTtYBeNjy1XdXXXXyVXa-186-200.svg">
 
 # NG-ZORRO-Mobile
 
 This is the Angular implementation of the [Ant Design](http://ant.design)'s mobile specification, serving the alibaba big data wireless service.
 
 [中文 README](README-zh_CN.md)
-
-<div class="pic-plus" style="display: inline-block!important;vertical-align: middle;">
-  <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-  <span style="font-size: 30px;color: #aaa;margin: 0 20px;">+</span>
-  <img height="150" src="https://img.alicdn.com/tfs/TB1Z0PywTtYBeNjy1XdXXXXyVXa-186-200.svg">
-</div>
-
 
 ## Scan QR Code
 ![ng-zorro-mobile](https://gw.alicdn.com/tfs/TB1KPm6dSzqK1RjSZFjXXblCFXa-260-260.png)
