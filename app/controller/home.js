@@ -43,6 +43,27 @@ class HomeController extends Controller {
       ctx.body = 'Github: https://github.com/NG-ZORRO/ng-zorro-antd-mobile';
     }
   }
+
+  async openAi() {
+    const { ctx } = this;
+    const { model, prompt, temperature, max_tokens } = ctx.query;
+    const { openAi } = this.app.config;
+
+    const completion = await openAi.createCompletion({
+      model: model || "text-davinci-003",
+      prompt: prompt || "# Table albums, columns = [AlbumId, Title, ArtistId]\n# Table artists, columns = [ArtistId, Name]\n# Table media_types, columns = [MediaTypeId, Name]\n# Table playlists, columns = [PlaylistId, Name]\n# Table playlist_track, columns = [PlaylistId, TrackId]\n# Table tracks, columns = [TrackId, Name, AlbumId, MediaTypeId, GenreId, Composer, Milliseconds, Bytes, UnitPrice]\n\n# Create a query for all albums by Adele",
+      temperature: temperature || 0.7,
+      max_tokens: max_tokens || 256,
+      top_p: 1,
+      frequency_penalty: 0,
+      presence_penalty: 0
+    });
+
+    ctx.body = {
+      code: 0,
+      data: completion.data.choices[0].text
+    }
+  }
 }
 
 module.exports = HomeController;

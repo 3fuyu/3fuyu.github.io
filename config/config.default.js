@@ -16,6 +16,9 @@ module.exports = appInfo => {
     }
   }
 
+  config.openAiKey = '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';
+  config.openAiOrg = 'org-JCyfHkh0FBrBGz25rcBhVMOU';
+
   config.static = {
     prefix: '/assets/',
     dir:[path.join(__dirname, '../app/assets')]
